@@ -6,38 +6,38 @@ export const homepageData = {
       "videos/intro/qualityOfLife.mp4",
     ],
     introWords: {
-      left: "GSLTECH",
-      right: ["TECHNOLOGY", "WELLNESS", "QUALITY OF LIFE"],
+      left: "Classic Works",
+      right: ["REVIVE", "ACCESS", "SHARE"],
     },
     introText: {
-      text: "Building a healthy foundation for your daily life, with technology and empathy",
+      text: "We bring classics to today, make them easy to access, and share their value widely.",
       lineBreaks: {
-        pc: ["foundation", "life,"],
-        mobile: ["healthy", "foundation", "life,", "technology"],
+        pc: ["today,", "access,"],
+        mobile: ["classics", "today,", "easy", "access,", "their"],
       },
     },
   },
   gallerySection: [
     [
       {
-        title: "KOREREN",
-        sub: ["Healthcare brand"],
-        image: "/images/gallery/gallery-koreren.webp",
-        video: "/videos/gallery/gallery-koreren.mp4",
+        title: "숙오음덕 뮤지컬",
+        sub: ["Musical"],
+        image: "/images/gallery/sukoemduk.png",
+        // video: "/videos/gallery/gallery-koreren.mp4",
       },
     ],
     [
       {
-        title: "COSMETICS",
-        sub: ["Cosmetic brand"],
+        title: "MD 상품",
+        sub: ["Merchandise"],
         image: "/images/gallery/gallery-cosmetic.webp",
         video: "/videos/gallery/gallery-cosmetic.mp4",
       },
     ],
     [
       {
-        title: "IT Devlopment",
-        sub: ["Website", "CRM"],
+        title: "관포지교 얼리버드",
+        sub: ["early-bird", "관포지교"],
         image: "/images/gallery/gallery-ITdevelop.webp",
         video: "/videos/gallery/gallery-ITdevelop.mp4",
       },
@@ -46,36 +46,16 @@ export const homepageData = {
   historySection: [
     //순서대로 화면에 적용
     {
-      year: 2025.07,
-      title: "온천수 공급  MOU 계약 체결",
+      year: 2025.11,
+      title: "창작 뮤지컬 〈숙오음덕〉 제작 및 공연 준비 진행",
     },
     {
-      year: 2025.05,
-      title: "저주파 미용기기 독점 개발 착수",
+      year: 2025.1,
+      title: "첫 기획 공연 개발 착수",
     },
     {
-      year: 2025.04,
-      title: "하남 공장 오픈",
-    },
-    {
-      year: 2025.01,
-      title: "평택 공장 오픈",
-    },
-    {
-      year: 2024.12,
-      title: "제품 회원 관리 프로그램 제작",
-    },
-    {
-      year: 2024.11,
-      title: "(주)에이치피이앤씨 건설 웹사이트 제작",
-    },
-    {
-      year: 2024.08,
-      title: "저주파 미용기기 베타테스팅 시작",
-    },
-    {
-      year: 2024.07,
-      title: "GSLTECH 창립",
+      year: 2025.09,
+      title: "고전 기반 문화콘텐츠 제작을 목표로 회사 설립",
     },
   ],
   expertiseSection: {
