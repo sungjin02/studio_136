@@ -137,11 +137,10 @@ const PartnersSection = ({ data }) => {
   <div class="partner-name w-full h-1/10 md:pt-[0.6vw] md:mt-[1vw] pt-[5vw] flex items-center justify-center text-white font-normal md:text-[3vw] text-[5vw]">
     ${data[currentCardIdx.current].name}
   </div>
-  <div onclick="window.open('${data[currentCardIdx.current].link}', '_blank')"
+  <div 
        class="partner-img relative overflow-hidden cursor-pointer md:mt-[1.5vw] mt-[5vw] rounded-xl w-full aspect-16/9 flex">
-    <div class="img-wrapper absolute w-full h-full bg-black opacity-0 hover:opacity-60 transition-all duration-[300ms] ease-in-out flex items-center justify-center">
+    <div class="img-wrapper hidden absolute w-full h-full bg-black opacity-0 hover:opacity-60 transition-all duration-[300ms] ease-in-out flex items-center justify-center">
       <p class="z-60 text-white md:text-[2vw] text-[4vw] font-light">
-        홈페이지 이동
       </p>
     </div>
     <img
@@ -220,11 +219,10 @@ const PartnersSection = ({ data }) => {
   <div class="partner-name w-full h-1/10 md:pt-[0.6vw] md:mt-[1vw] pt-[5vw] flex items-center justify-center text-white font-normal md:text-[3vw] text-[5vw]">
     ${data[currentCardIdx.current].name}
   </div>
-  <div onclick="window.open('${data[currentCardIdx.current].link}', '_blank')"
+  <div 
        class="partner-img relative overflow-hidden cursor-pointer md:mt-[1.5vw] mt-[5vw] rounded-xl w-full aspect-16/9 flex">
-    <div class="img-wrapper absolute w-full h-full bg-black opacity-0 hover:opacity-60 transition-all duration-[300ms] ease-in-out flex items-center justify-center">
+    <div class="img-wrapper hidden absolute w-full h-full bg-black opacity-0 hover:opacity-60 transition-all duration-[300ms] ease-in-out flex items-center justify-center">
       <p class="z-60 text-white md:text-[2vw] text-[4vw] font-light">
-        홈페이지 이동
       </p>
     </div>
     <img
@@ -409,13 +407,13 @@ const PartnersSection = ({ data }) => {
           {/* partner-left-title */}
           <div className="partner-left-title md:w-auto w-4/7">
             <div className="w-full partner-one-word font-normal  text-white md:text-[4vw] md:leading-[4.2vw]  text-[8.2vw] leading-[8.4vw] ">
-              Partners
+              Members
             </div>
             <div className="w-full partner-one-word font-normal text-white md:text-[4vw] md:leading-[4.2vw]  text-[8.2vw] leading-[8.4vw] ">
-              who share
+              who bring
             </div>
             <div className="w-full partner-one-word font-normal text-white md:text-[4vw] md:leading-[4.2vw]  text-[8.2vw] leading-[8.4vw] ">
-              our vision
+              classics to life
             </div>
           </div>
           {/* arrow-wrapper */}
@@ -538,15 +536,13 @@ const PartnersSection = ({ data }) => {
               {data[0].name}
             </div>
             <div
-              onClick={() => {
-                window.open(data[0].link, "_blank");
-              }}
+              // onClick={() => {
+              //   window.open(data[0].link, "_blank");
+              // }}
               className="partner-img relative  overflow-hidden cursor-pointer md:mt-[1.5vw] mt-[5vw] rounded-xl w-full aspect-16/9  bg-amber-100 flex"
             >
-              <div className="img-wrapper absolute w-full h-full bg-black opacity-0 hover:opacity-60 transition-all duration-[300ms] ease-in-out flex items-center justify-center">
-                <p className="z-60 text-white md:text-[2vw] text-[4vw] font-light">
-                  홈페이지 이동
-                </p>
+              <div className="hidden img-wrapper absolute w-full h-full bg-black opacity-0 hover:opacity-60 transition-all duration-[300ms] ease-in-out flex items-center justify-center">
+                <p className="z-60 text-white md:text-[2vw] text-[4vw] font-light"></p>
               </div>
               <img
                 loading="lazy"

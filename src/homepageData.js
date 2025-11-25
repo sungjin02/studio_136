@@ -6,7 +6,7 @@ export const homepageData = {
       "videos/intro/qualityOfLife.mp4",
     ],
     introWords: {
-      left: "Classic Works",
+      left: "Studio 136",
       right: ["REVIVE", "ACCESS", "SHARE"],
     },
     introText: {
@@ -36,8 +36,8 @@ export const homepageData = {
     ],
     [
       {
-        title: "관포지교 얼리버드",
-        sub: ["early-bird", "관포지교"],
+        title: "관포지교 뮤지컬",
+        sub: ["coming-soon", "관포지교"],
         image: "/images/gallery/gallery-ITdevelop.webp",
         video: "/videos/gallery/gallery-ITdevelop.mp4",
       },
@@ -60,71 +60,102 @@ export const homepageData = {
   ],
   expertiseSection: {
     default_description: [
-      "TECHNOLOGY",
-      "QUALITY",
-      "SOLUTION",
-      "EXPERIENCE",
-      "SOCIALVALUE",
-      "INTEGRATION",
-      "INNOVATION",
+      "CLASSICS",
+      "CREATIVITY",
+      "PERFORMANCE",
+      "CULTURE",
+      "VALUE",
     ],
-    default_video: "/videos/expertise/technology.mp4",
+    default_video: "/videos/expertise/main.mp4",
     //title과 description, video는 각 순서에 대응
-    title: ["Product R&D", "QM", "Manufacturing", "Website", "Application"],
+    title: ["CLASSICS", "CREATIVITY", "PERFORMANCE", "CULTURE", "VALUE"],
     description: [
       [
-        "INNOVATION",
-        "STRATEGY",
-        "RESEACH",
-        "DEVELOPMENT",
-        "TECHNOLOGY",
-        "SOLUTION",
+        "HERITAGE",
+        "TRADITION",
+        "TEXTS",
+        "WISDOM",
+        "LEGACY",
+        "STORY",
+        "INTERPRETATION",
+      ],
+      [
+        "IMAGINATION",
+        "IDEAS",
+        "ARTISTRY",
+        "INSPIRATION",
         "CONCEPT",
+        "VISION",
+        "CRAFT",
       ],
       [
-        "QUALITY",
-        "ASSURANCE",
-        "CONTROL",
-        "TESTING",
-        "STANDARD",
-        "SAFETY",
-        "COMPLIANCE",
-        "RELIABILITY",
+        "STAGE",
+        "MUSIC",
+        "DRAMA",
+        "MOVEMENT",
+        "EXPRESSION",
+        "ENERGY",
+        "PRESENCE",
       ],
-      ["PRODUCTION", "PRECISION", "EFFICIENCY", "ASSEMBLY", "CHAIN"],
-      ["UX/UI", "BRAND", "RESPONSIVE", "DESIGN", "DIGITAL"],
       [
-        "SOFTWARE",
-        "DASHBOARD",
-        "DATA",
-        "ANALYTICS",
-        "MOBILE",
-        "USER ENGAGEMENT",
-        "MANAGEMENT SYSTEM",
+        "ARTS",
+        "COMMUNITY",
+        "DIVERSITY",
+        "SHARING",
+        "HISTORY",
+        "SOCIAL IMPACT",
+        "CONNECTION",
       ],
+      ["MEANING", "PURPOSE", "MESSAGE", "ETHICS", "IMPACT", "INSIGHT", "TRUTH"],
     ],
     video: [
-      "/videos/expertise/productRD.mp4",
-      "/videos/expertise/quality.mp4",
-      "/videos/expertise/manufacturing.mp4",
-      "/videos/expertise/website.mp4",
-      "/videos/expertise/application.mp4",
+      "/videos/expertise/classics.mp4",
+      "/videos/expertise/creativity.mp4",
+      "/videos/expertise/performance.mp4",
+      "/videos/expertise/culture.mp4",
+      "/videos/expertise/value.mp4",
     ],
   },
   partnersSection: [
     {
-      name: "GSLAND",
+      name: "서채은",
       img: "/images/partner/gsland.webp",
-      link: "https://www.gsland-global.com",
+      // link: "https://www.gsland-global.com",
+    },
+    {
+      name: "이우재",
+      img: "/images/partner/gsland.webp",
+      // link: "https://www.gsland-global.com",
+    },
+    {
+      name: "정다혜",
+      img: "/images/partner/gsland.webp",
+      // link: "https://www.gsland-global.com",
+    },
+    {
+      name: "김현주",
+      img: "/images/partner/gsland.webp",
+      // link: "https://www.gsland-global.com",
+    },
+    {
+      name: "고성희",
+      img: "/images/partner/gsland.webp",
+      // link: "https://www.gsland-global.com",
+    },
+
+    {
+      name: "김성진",
+      img: "/images/partner/gsland.webp",
+      // link: "https://www.gsland-global.com",
     },
   ],
   footerSection: {
     text: "Got a project in mind? We're listening :)",
     breakPoint: ["mind?"],
-    email: "gslt@gsland.tech",
-    tel: "02-545-2026",
-    address: "서울특별시 강남구 언주로 634",
-    addressDetail: "4층, 지에스엘텍",
+    email: "studio_136@studio_136",
+    tel: "02-136-136",
+    address: "대전광역시 어쩌구 1호",
+    addressDetail: "2층, studio 136",
     mobileVideo: "/videos/footer/mobile-footer.mp4",
     pcVideo: "/videos/footer/pc-footer.mp4",
   },
@@ -139,37 +170,42 @@ export const homepageData = {
       {
         info: {
           //btnText : null 로 할 경우 btn 영역 삭제
-          types: ["Healthcare brand"],
-          title: "KOREREN",
-          link: "https://koreren.co.kr/",
-          btnText: "Visit Website",
+          types: ["Musical"],
+          title: "숙오음덕 뮤지컬",
+          // link: "https://koreren.co.kr/",
+          // btnText: "Visit Website",
         },
         mainImg: "/images/modal/gallery/main/modal-main-koreren.webp",
         desc: {
           texts: {
             pc: [
-              "모든 웰니스의 시작점인 중심(core)을 다시 세우기 위해, 헬스케어 브랜드 KOREREN을 선보입니다. ",
-              "한국의 기술력으로 완성된 KOREREN 제품들은 신체의 긴장을 완화하고 내면의 에너지를 회복시켜",
-              "몸의 자연스러운 리듬과 균형을 되찾는 근본적인 솔루션을 제공합니다.",
+              "뮤지컬 ‘숙오음덕’은 보이지 않는 선행과 그에 따른 울림을 현대적 감성으로 담아낸 작품입니다.",
+              "고전의 핵심 메시지를 간결하게 전달하며, 인물들의 선택과 감정이 무대 위에서 선명하게 드러납니다.",
+              "절제된 연출과 상징적 이미지로 작품의 깊이를 강조하며, 관객에게 고전이 지닌 의미를 다시 묻습니다.",
               " ",
-              "현재 KOREREN의 철학을 담은 디퍼웨이브를 시작으로 더 다양한 웰니스 솔루션을 선보일 것입니다.",
+              "숙오음덕은 고전이 오늘에 남기는 질문을 가장 순수한 형태로 전달하고자 합니다.",
             ],
             mobile: [
-              "모든 웰니스의 시작점인 중심(core)을",
-              "다시 세우기 위해, 헬스케어 브랜드",
-              "KOREREN을 선보입니다. ",
+              "뮤지컬 ‘숙오음덕’은",
+              "보이지 않는 선행의 의미를",
+              "현대적 감성으로 담아낸 작품입니다.",
               " ",
-              "한국의 기술력으로 완성된 KOREREN 제품들은",
-              "신체의 긴장을 완화하고 내면의 에너지를 회복시켜",
-              "몸의 자연스러운 리듬과 균형을 되찾는",
-              "근본적인 솔루션을 제공합니다.",
+              "고전이 전하는 메시지를",
+              "간결한 방식으로 제시하며,",
+              "인물들의 감정과 선택을",
+              "선명하게 보여줍니다.",
               " ",
-              "현재 KOREREN의 철학을 담은",
-              "디퍼웨이브를 시작으로 더 다양한",
-              "웰니스 솔루션을 선보일 것입니다.",
+              "절제된 연출과 상징적 이미지로",
+              "작품의 깊이를 강조하며,",
+              "고전이 남기는 질문을",
+              "관객에게 조용히 전합니다.",
+              " ",
+              "숙오음덕은 고전의 울림을",
+              "가장 순수한 형태로",
+              "무대에 담아냅니다.",
             ],
           },
-          points: ["#휴식", "#에너지", "#Korea", "#Core", "#Renew"],
+          points: ["#숙오음덕", "#고전의울림", "#보이지않는선행", "#뮤지컬"],
         },
         album: {
           needTap: false,
@@ -212,36 +248,42 @@ export const homepageData = {
       {
         info: {
           //btnText : null 로 할 경우 btn 영역 삭제
-          types: ["Cosmetic brand"],
-          title: "COSMETICS",
+          types: ["Merchandise"],
+          title: "MD products",
           // link: "https://www.youtube.com/",
           btnText: null,
         },
-        mainImg: "/images/modal/gallery/main/modal-main-cosmetic.webp",
+        mainImg: "/images/modal/gallery/main/modal-main-md.png",
         desc: {
           texts: {
             pc: [
-              "자연이 주는 순수한 에너지를 피부에 온전히 전달하기 위해, 새로운 뷰티 솔루션을 연구합니다. ",
-              "미네랄이 풍부한 온천수와 검증된 천연 성분을 바탕으로 비누부터 스킨케어, 화장품 까지",
-              "피부에 가장 이상적인 제품 라인업을 개발하고 있습니다.",
-              "자연과 기술이 만나 탄생한 차별화된 효능으로, 피부 본연의 건강함을 되찾는 경험을 약속합니다.",
+              "숙오음덕의 깊은 메시지를 일상에서도 경험할 수 있도록, 특별한 MD 컬렉션을 선보입니다.",
+              "공연의 상징적 요소와 감성을 담아낸 디자인을 중심으로 티셔츠, 머그컵, 키링 등",
+              "실용성과 소장 가치를 모두 갖춘 제품 라인업을 준비했습니다.",
+              "작품의 감동을 오래 간직하고, 하루의 순간에 작은 영감을 더하는 경험을 제공합니다.",
             ],
             mobile: [
-              "자연이 주는 순수한 에너지를",
-              "피부에 온전히 전달하기 위해,",
-              "새로운 뷰티 솔루션을 연구합니다. ",
+              "숙오음덕의 깊은 메시지를",
+              "일상에서도 경험할 수 있도록,",
+              "특별한 MD 컬렉션을 선보입니다.",
               " ",
-              "미네랄이 풍부한 온천수와",
-              "검증된 천연 성분을 바탕으로",
-              "비누부터 스킨케어, 화장품 까지",
+              "공연의 상징적 요소와 감성을 담아낸 디자인을 중심으로",
+              "티셔츠, 머그컵, 키링 등",
+              "실용성과 소장 가치를 갖춘",
+              "제품 라인업을 준비했습니다.",
               " ",
-              "피부에 가장 이상적인",
-              "제품 라인업을 개발하고 있습니다.",
-              "자연과 기술이 만나 탄생한 차별화된 효능으로,",
-              "피부 본연의 건강함을 되찾는 경험을 약속합니다.",
+              "작품의 감동을 오래 간직하고,",
+              "하루의 순간에 작은 영감을 더하는",
+              "특별한 경험을 제공합니다.",
             ],
           },
-          points: ["#온천수", "#자연유래", "#미네랄", "#더마솔루션"],
+          points: [
+            "#숙오음덕",
+            "#뮤지컬MD",
+            "#전통감성",
+            "#고전모티프",
+            "#프리미엄굿즈",
+          ],
         },
         album: {
           needTap: false,
@@ -252,23 +294,37 @@ export const homepageData = {
                 [
                   {
                     type: "image",
-                    src: "/images/modal/gallery/album/modal-album-cosmetic1.webp",
-                  },
-                ],
-                [
-                  {
-                    type: "video",
-                    src: "/videos/modal/gallery/album/modal-album-cosmetic1.mp4",
-                  },
-                  {
-                    type: "video",
-                    src: "/videos/modal/gallery/album/modal-album-cosmetic2.mp4",
+                    src: "/images/modal/gallery/album/modal-album-md-menu.png",
                   },
                 ],
                 [
                   {
                     type: "image",
-                    src: "/images/modal/gallery/album/modal-album-cosmetic2.webp",
+                    src: "/images/modal/gallery/album/modal-album-md-shirt.png",
+                  },
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-cup.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-btn.png",
+                  },
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-kring.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-pen.png",
+                  },
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-sticker.png",
                   },
                 ],
               ],
@@ -303,62 +359,48 @@ export const homepageData = {
       {
         info: {
           //btnText : null 로 할 경우 btn 영역 삭제
-          types: ["Website", "CRM"],
-          title: "IT Devlopment",
+          types: ["musical", "coming soon"],
+          title: "관포지교 뮤지컬",
           // link: "https://homerun.today/",
           btnText: null,
         },
-        mainImg: "/images/modal/gallery/main/modal-main-ITdevelop.webp",
+        mainImg: "/images/modal/gallery/main/modal-main-coming.png",
         desc: {
           texts: {
             pc: [
-              "GSLTECH의 IT개발팀은 브랜드와 비즈니스 운영에 필요한 핵심 디지털 솔루션을 직접 개발합니다",
-              "현재 브랜드 웹사이트와 효율적인 운영을 위한 관리 프로그램을 제작하고 있으며,",
-              "파트너사의 요청에 따른 맞춤형 솔루션 개발도 지원합니다.",
-              "향후 디바이스와 연동되는 모바일 앱까지 사업영역을 확장할 수 있는 잠재력을 보유하고 있습니다.",
+              "뮤지컬 ‘관포지교’는 한 시대를 대표하는 깊은 우정과 신의를 중심으로, 인간 관계의 본질을 섬세하게 담아낸 작품입니다.",
+              "서로를 끝까지 믿는 두 인물의 이야기를 음악, 무대, 드라마로 입체적으로 펼쳐내며,",
+              "고전 속 가치가 현대적 감성으로 다시 살아나는 강렬한 서사를 선보입니다.",
+              "현재 마지막 완성도를 높이는 단계에 있으며, 곧 관객들에게 그 깊이를 전할 예정입니다.",
             ],
             mobile: [
-              "GSLTECH의 IT개발팀은 브랜드와 비즈니스 운영에",
-              "필요한 핵심 디지털 솔루션을 직접 개발합니다",
+              "뮤지컬 ‘관포지교’는",
+              "깊은 우정과 신의를 중심으로",
+              "인간 관계의 본질을 담아낸 작품입니다.",
               " ",
-              "현재 브랜드 웹사이트와 효율적인 운영을 위한",
-              "관리 프로그램을 제작하고 있으며,",
-              "파트너사의 요청에 따른",
-              "맞춤형 솔루션 개발도 지원합니다.",
+              "두 인물의 믿음과 선택이",
+              "음악과 무대미술을 통해",
+              "입체적으로 표현되며,",
+              "고전적 가치가 현대적으로",
+              "되살아나는 서사를 전합니다.",
               " ",
-              "향후 디바이스와 연동되는 모바일 앱까지",
-              "사업영역을 확장할 수 있는",
-              "잠재력을 보유하고 있습니다.",
+              "현재 마지막 완성도를 높이고 있으며,",
+              "곧 관객들에게 공개될 예정입니다.",
             ],
           },
-          points: ["#정보", "#소프트웨어", "#디지털", "#관리"],
+          points: ["#고전서사", "#관포지교", "#뮤지컬", "#ComingSoon"],
         },
         album: {
           //type은 꼭 image와 video 로 구분
-          needTap: true,
-          taps: ["Website", "CRM"],
+          needTap: false,
+          // taps: ["Website", "CRM"],
           content: {
-            Website: {
+            default: {
               pc: [
                 [
                   {
                     type: "image",
-                    src: "/images/modal/gallery/album/modal-album-website1.webp",
-                    href: "http://hpenc.com/",
-                  },
-                ],
-                [
-                  {
-                    type: "image",
-                    src: "/images/modal/gallery/album/modal-album-website2.webp",
-                    href: "https://gsltech.co.kr",
-                  },
-                ],
-                [
-                  {
-                    type: "image",
-                    src: "/images/modal/gallery/album/modal-album-website3.webp",
-                    href: "https://koreren.co.kr/",
+                    src: "/images/modal/gallery/album/modal-album-coming.png",
                   },
                 ],
               ],
@@ -366,40 +408,7 @@ export const homepageData = {
                 [
                   {
                     type: "image",
-                    src: "/images/modal/gallery/album/modal-album-website1-mobile.webp",
-                    href: "http://hpenc.com/",
-                  },
-                ],
-                [
-                  {
-                    type: "image",
-                    src: "/images/modal/gallery/album/modal-album-website2-mobile.webp",
-                    href: "https://gsltech.co.kr",
-                  },
-                ],
-                [
-                  {
-                    type: "image",
-                    src: "/images/modal/gallery/album/modal-album-website3-mobile.webp",
-                    href: "https://gsltech.co.kr",
-                  },
-                ],
-              ],
-            },
-            CRM: {
-              pc: [
-                [
-                  {
-                    type: "image",
-                    src: "/images/modal/gallery/album/modal-album-crm1.webp",
-                  },
-                ],
-              ],
-              mobile: [
-                [
-                  {
-                    type: "image",
-                    src: "/images/modal/gallery/album/modal-album-crm1-mobile.webp",
+                    src: "/images/modal/gallery/album/modal-album-coming.png",
                   },
                 ],
               ],
