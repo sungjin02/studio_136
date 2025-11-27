@@ -216,13 +216,24 @@ export const homepageData = {
                 [
                   {
                     type: "image",
+                    src: "/images/modal/gallery/main/modal-main-poster.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
                     src: "/images/modal/gallery/album/modal-album-poster-desc.png",
                   },
                 ],
               ],
               pc: [
                 //type은 꼭 image와 video 로 구분
-
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/main/modal-main-poster.png",
+                  },
+                ],
                 [
                   {
                     type: "image",
