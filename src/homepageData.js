@@ -119,7 +119,7 @@ export const homepageData = {
   partnersSection: [
     {
       name: "서채은",
-      img: "/images/partner/gsland.webp",
+      img: "/images/partner/che-en.jpeg",
       // link: "https://www.gsland-global.com",
     },
     {
@@ -139,13 +139,13 @@ export const homepageData = {
     },
     {
       name: "고성희",
-      img: "/images/partner/gsland.webp",
+      img: "/images/partner/sung-hee.png",
       // link: "https://www.gsland-global.com",
     },
 
     {
       name: "김성진",
-      img: "/images/partner/gsland.webp",
+      img: "/images/partner/sung-jin.png",
       // link: "https://www.gsland-global.com",
     },
   ],
@@ -175,7 +175,7 @@ export const homepageData = {
           // link: "https://koreren.co.kr/",
           // btnText: "Visit Website",
         },
-        mainImg: "/images/modal/gallery/main/modal-main-koreren.webp",
+        mainImg: "/images/modal/gallery/main/modal-main-poster.png",
         desc: {
           texts: {
             pc: [
@@ -216,28 +216,17 @@ export const homepageData = {
                 [
                   {
                     type: "image",
-                    src: "/images/modal/gallery/album/modal-album-koreren1.webp",
-                  },
-                ],
-                [
-                  {
-                    type: "image",
-                    src: "/images/modal/gallery/album/modal-album-koreren2.webp",
+                    src: "/images/modal/gallery/album/modal-album-poster-desc.png",
                   },
                 ],
               ],
               pc: [
                 //type은 꼭 image와 video 로 구분
+
                 [
                   {
                     type: "image",
-                    src: "/images/modal/gallery/album/modal-album-koreren1.webp",
-                  },
-                ],
-                [
-                  {
-                    type: "image",
-                    src: "/images/modal/gallery/album/modal-album-koreren2.webp",
+                    src: "/images/modal/gallery/album/modal-album-poster-desc.png",
                   },
                 ],
               ],
@@ -332,23 +321,43 @@ export const homepageData = {
                 [
                   {
                     type: "image",
-                    src: "/images/modal/gallery/album/modal-album-cosmetic1-mobile.webp",
-                  },
-                ],
-                [
-                  {
-                    type: "video",
-                    src: "/videos/modal/gallery/album/modal-album-cosmetic1.mp4",
-                  },
-                  {
-                    type: "video",
-                    src: "/videos/modal/gallery/album/modal-album-cosmetic2.mp4",
+                    src: "/images/modal/gallery/album/modal-album-md-menu.png",
                   },
                 ],
                 [
                   {
                     type: "image",
-                    src: "/images/modal/gallery/album/modal-album-cosmetic2-mobile.webp",
+                    src: "/images/modal/gallery/album/modal-album-md-shirt.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-cup.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-btn.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-kring.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-pen.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-md-sticker.png",
                   },
                 ],
               ],
