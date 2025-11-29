@@ -1,9 +1,9 @@
 export const homepageData = {
   introSection: {
     introVideos: [
-      "videos/intro/technology.mp4",
-      "videos/intro/wellness.mp4",
-      "videos/intro/qualityOfLife.mp4",
+      "videos/intro/intro1.mp4",
+      "videos/intro/intro2.mp4",
+      "videos/intro/intro3.mp4",
     ],
     introWords: {
       left: "Studio 136",
@@ -22,7 +22,7 @@ export const homepageData = {
       {
         title: "숙오음덕 뮤지컬",
         sub: ["Musical"],
-        image: "/images/gallery/sukoemduk.png",
+        image: "/images/gallery/modal-main-poster.png",
         // video: "/videos/gallery/gallery-koreren.mp4",
       },
     ],
@@ -30,16 +30,16 @@ export const homepageData = {
       {
         title: "MD 상품",
         sub: ["Merchandise"],
-        image: "/images/gallery/gallery-cosmetic.webp",
-        video: "/videos/gallery/gallery-cosmetic.mp4",
+        image: "/images/gallery/modal-main-md.png",
+        // video: "/videos/gallery/gallery-cosmetic.mp4",
       },
     ],
     [
       {
         title: "관포지교 뮤지컬",
         sub: ["coming-soon", "관포지교"],
-        image: "/images/gallery/gallery-ITdevelop.webp",
-        video: "/videos/gallery/gallery-ITdevelop.mp4",
+        image: "/images/gallery/stu136.png",
+        // video: "/videos/gallery/gallery-ITdevelop.mp4",
       },
     ],
   ],
@@ -124,17 +124,17 @@ export const homepageData = {
     },
     {
       name: "이우재",
-      img: "/images/partner/gsland.webp",
+      img: "/images/partner/woo-jea.png",
       // link: "https://www.gsland-global.com",
     },
     {
       name: "정다혜",
-      img: "/images/partner/gsland.webp",
+      img: "/images/partner/sung-hee.png",
       // link: "https://www.gsland-global.com",
     },
     {
       name: "김현주",
-      img: "/images/partner/gsland.webp",
+      img: "/images/partner/heon-ju.jpeg",
       // link: "https://www.gsland-global.com",
     },
     {
@@ -145,7 +145,7 @@ export const homepageData = {
 
     {
       name: "김성진",
-      img: "/images/partner/sung-jin.png",
+      img: "/images/partner/sung-jin.jpeg",
       // link: "https://www.gsland-global.com",
     },
   ],
