@@ -129,7 +129,7 @@ export const homepageData = {
     },
     {
       name: "정다혜",
-      img: "/images/partner/sung-hee.png",
+      img: "/images/partner/da-hea.jpeg",
       // link: "https://www.gsland-global.com",
     },
     {
@@ -225,6 +225,12 @@ export const homepageData = {
                     src: "/images/modal/gallery/album/modal-album-poster-desc.png",
                   },
                 ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-review.png",
+                  },
+                ],
               ],
               pc: [
                 //type은 꼭 image와 video 로 구분
@@ -238,6 +244,12 @@ export const homepageData = {
                   {
                     type: "image",
                     src: "/images/modal/gallery/album/modal-album-poster-desc.png",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    src: "/images/modal/gallery/album/modal-album-review.png",
                   },
                 ],
               ],
